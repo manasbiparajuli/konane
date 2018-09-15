@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/background_border"
+                android:layout_margin="2dp">
+
+    <TextView
+        android:id="@+id/option_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="33dp"
+        android:text="@string/select_board"
+        android:textSize="30sp"/>
+
+    <RadioGroup
+        android:id="@+id/boardSizeRadio"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/option_name">
+
+        <RadioButton
+            android:id="@+id/six"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/six"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/eight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/eight"
+            android:textSize="25sp"/>
+
+        <RadioButton
+            android:id="@+id/ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ten"
+            android:textSize="25sp"/>
+    </RadioGroup>
+
+</RelativeLayout>

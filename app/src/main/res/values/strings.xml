@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Konane</string>
+
+    <string name="select_board">SELECT BOARD SIZE</string>
+    <string name="six">Small 6 x 6</string>
+    <string name="eight">Medium 8 x 8</string>
+    <string name="ten">Large 10 x 10</string>
+
+    <string name="do_pruning">ALPHA-BETA PRUNING</string>
+    <string name="ply_cutoff">PLY CUT-OFF</string>
+    <string name="cancel">IGNORE</string>
+    <string name="set_ply">SET</string>
+
+    <string name="guess_name">GUESS REMOVED BLACK PIECE</string>
+
+    <string name="skip_turn">SKIP TURN</string>
+    <string name="start">START GAME</string>
+    <string name="resume">RESUME GAME</string>
+    <string name="save_game">SAVE GAME</string>
+    <string name="next_move">NEXT MOVE</string>
+    <string name="main_menu">MAIN MENU</string>
+    <string name="re_play">PLAY AGAIN</string>
+
+    <string name="player1">BLACK</string>
+    <string name="player2">WHITE</string>
+
+    <string name="player1_won">BLACK WON!</string>
+    <string name="player2_won">WHITE WON!</string>
+    <string name="match_drawn">MATCH DRAWN</string>
+</resources>
